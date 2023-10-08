@@ -25,13 +25,12 @@ This project involves building a Streamlit-based tool that serves two primary pu
 - Pandas Profiling is performed generate data summaries and displays them to the end user.
 - Great Expectations tests are executed to ensure that the data adheres to the schema published by Freddie Mac by performing validations. This validation process ensures that the 
   data meets the specified criteria and quality standards.
-- Additionally, the data is stored in Amazon S3 for storage purposes and is continuously monitored and tracked using "Amazon Cloud Watch" to ensure system performance and data 
-  integrity.
 
 ### Technology Stack:
 - Streamlit
 - PyPdf
 - Nougat
+- Spacy
 - Pandas Profiling
 - Great Expectations
 - AWS
